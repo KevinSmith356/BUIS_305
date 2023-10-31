@@ -4,13 +4,13 @@ import math
 # Problem 1
 width = 20
 height = 50
-rectangle = width * height
-print(rectangle)
+area_of_rectangle = width * height
+print(area_of_rectangle)
 
 # Problem 2
 r = 5
-circle = math.pi * (math.pow(r, 2))
-print(circle)
+area_of_circle = math.pi * (math.pow(r, 2))
+print(area_of_circle)
 
 # Problem 3
 input1 = 2
