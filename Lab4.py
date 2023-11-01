@@ -25,6 +25,13 @@ if length and breadth > 0:
 else:
     print('Invalid Input')
 # Step 11
+radius = float(input('Enter Radius'))
+if radius >= 0:
+    print('Valid Input')
+    area = 3.14 * radius * radius
+    print(area)
+else:
+    print('Invalid Input')
 length = float(input('Enter Length'))
 breadth = float(input('Enter Breadth'))
 if length and breadth >= 0:
