@@ -1,8 +1,8 @@
 # Step 2
-for numbers in range(0,10):
+for numbers in range(0, 10):
     print(numbers)
 # Step 3
-for number in range(1,10):
+for number in range(1, 10):
     print(number)
 # Step 4
 for order in range(-1, 10, 2):
@@ -15,7 +15,7 @@ if radius > 0:
     print(area)
 else:
     print('Invalid Input')
-# Steps 9-11
+# Steps 9-10
 length = float(input('Enter Length'))
 breadth = float(input('Enter Breadth'))
 if length and breadth > 0:
@@ -24,3 +24,10 @@ if length and breadth > 0:
     print(area1)
 else:
     print('Invalid Input')
+# Step 11
+length = float(input('Enter Length'))
+breadth = float(input('Enter Breadth'))
+if length and breadth >= 0:
+    print('Valid Input')
+    area2 = length * breadth
+    print(area2)
