@@ -31,3 +31,5 @@ if length and breadth >= 0:
     print('Valid Input')
     area2 = length * breadth
     print(area2)
+else:
+    print('Invalid Input')
