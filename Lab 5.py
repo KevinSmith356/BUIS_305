@@ -34,7 +34,7 @@ while user1 < 5:
     else:
         print('Must enter value that is not zero')
 # Step 10
-user_value = int(input('Enter Poinnt:'))
+user_value = int(input('Enter Point:'))
 while user_value < 20:
     user_value += 1
     random_value = random.randint(1,20)
